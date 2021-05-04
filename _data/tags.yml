@@ -1,0 +1,16 @@
+study :
+  name: what i find out in the world
+  description: False
+  cover: assets/built/images/background-frontend.jpg
+ideas :
+  name: my ideas
+  description: False
+  cover: assets/built/images/background-frontend.jpg
+memo :
+  name: 20mins memo
+  description: False
+  cover: assets/built/images/background-frontend.jpg
+Useful :
+  name: useful collection
+  description: False
+  cover: assets/built/images/background-frontend.jpg
