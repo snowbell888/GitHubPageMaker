@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://snowbell888.github.io/author/snowbell888/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://snowbell888.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-05-07T10:33:41+00:00</updated>
+  <id>https://snowbell888.github.io/author/snowbell888/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">My study achives | </title>
+  
+
+  
+    <subtitle>To write what I find out in the world</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">깃허브 하,.,.,.,.,</title>
+      <link href="https://snowbell888.github.io/memo-gittest" rel="alternate" type="text/html" title="깃허브 하,.,.,.,.," />
+      <published>2021-05-01T08:07:00+00:00</published>
+      <updated>2021-05-01T08:07:00+00:00</updated>
+      <id>https://snowbell888.github.io/memo-gittest</id>
+      <content type="html" xml:base="https://snowbell888.github.io/memo-gittest">&lt;p&gt;한숨이 절로 나오네
+너무 힘들었어…ㅠㅠ 지금도 으휴&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
+markdown: kramdown
+# kramdown : markdown의 개조판.
+# markdown에서 불편한 사항을 개선한 형태.
+
+# MyData
+owner:
+  name:           Hyunjin Lee
+  avatar:         author-logo.jpg
+  bio:            &amp;quot;Student&amp;quot;
+  email:          skyfreedomlee@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:
+  github:
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the &amp;#39;+&amp;#39;, eg +mmistakes
+  google_plus:
+
+highlighter: rouge
+# text highlighter로 rouge이용
+# 2016.02월 이후로 syntax highlighter는 rouge만 지원.
+# Pygments 사용불가.
+
+paginate: 20
+# 작성한 모든 post를 하나의 페이지에 열거할 수 없으니
+# pagination이 필요하고 몇개의 post를 하나의 page에서
+# 보여줄 건지를 설정.
+
+language: &amp;#39;en-uk&amp;#39;
+# 언어 설정
+
+url: https://snowbell888.github.io
+# Google Search Console에서 사용하는 sitemap.xml 생성시
+# 이 url key값이 존재하지 않으면 sitemap.xml이
+# 정상적으로 생성되지 않는다.
+# 또한 disqus(댓글시스템)를 이용하기 위해서도 필요.
+# 자신의 github page url을 입력
+# ( https://your_github_id.github.io 형식 )
+
+baseurl: /
+
+# Website info
+title: My study achives
+# 자신의 blog title.
+
+description: To write what I find out in the world
+# blog home에 표시될 blog에 대한 전반적인 설명.
+
+cover: assets/built/images/blog-cover1.png
+# blog home에 표시될 blog cover image.
+
+logo:
+logo_dark:
+
+favicon: assets/built/images/favicon.png
+# favicon으로 사용할 image
+
+production_url: https://snowbell888.github.io/
+# 최종적으로 blog가 운영될 url
+
+source_url: https://github.com/snowbell888/GitHubPage/
+# blogmaker(jekyll source folder)에 대한 github repository
+
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
+
+subscribers: True
+# subscriber 기능을 사용할건지의 여부
+# 저는 약간의 수정을 통해 subscriber 기능대신
+# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
+# 검색기능으로 대체하기 위해서
+# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
+
+twitter:
+facebook:
+# 만약 twitter와 facebook을 이용하면 username을 입력
+
+# 댓글
+utterances: True
+
+
+# Google Analytics
+google_analytics: G-HNG857T2NP # replace with your GA tracking identifier
+# Google Analytics을 사용할 경우 GA tracking identifier를 입력
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:title
+# 각각의 post에 고정주소를 어떤 방식으로 할당할 것인지를 결정
+# 이 값을 바꾸면 작성한 포스트의 저장위치나 파일이름이 변경된다.
+
+# gems and other configs
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-sitemap]
+
+feed:
+  path: feed.xml
+
+# Travis-CI(자동화) 설정입니다.
+safe: False
+lsi: False
+
+username: snowbell888
+repo: https://github.com/snowbell888/snowbell888.github.io
+# username : travis-ci와 연동하는 github의 username
+# repo: travis-ci와 연동하는 github의 repository이름
+# https://github.com/&amp;lt;username&amp;gt;/&amp;lt;repository&amp;gt;
+
+branch: master
+# 사용할 branch명
+
+relative_source:
+
+destination: ../[GitHubPage]/
+# compile된 결과가 생성되는 폴더
+# 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
+# 이 폴더안의 내용을 github repository(https://username.github.io)에 push
+# 만약 Travis-CI를 이용할 예정이면 이 부분을 git submodule로
+# github repository(https://username.github.io)에 연결해야 한다.
+
+
+# exclude는 Jekyll컴파일 시 destination에 포함될 필요가
+# 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - &amp;quot;*.Rmd&amp;quot;
+  - vendor
+  - .travis.yml
+  - node_modules
+  - assets/css
+  - assets/images&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/snowbell888/694658fd086dbf78d42f24be74f097e5.js&quot;&gt; &lt;/script&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>snowbell888</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">한숨이 절로 나오네 너무 힘들었어…ㅠㅠ 지금도 으휴</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">아이디어가 넘치길</title>
+      <link href="https://snowbell888.github.io/ideas-first" rel="alternate" type="text/html" title="아이디어가 넘치길" />
+      <published>2021-04-30T08:14:00+00:00</published>
+      <updated>2021-04-30T08:14:00+00:00</updated>
+      <id>https://snowbell888.github.io/ideas-first</id>
+      <content type="html" xml:base="https://snowbell888.github.io/ideas-first">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Ideas를 여러 분야로 나눠보자 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ideas-first&quot;&gt;아이디어가 넘치길&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ideas-second&quot;&gt;두번째가 생길까?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 글은 처음으로 블로그를 만들어서 남기는 글입니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Hello World'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>snowbell888</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ideas" />
+      
+
+      
+        <summary type="html">Ideas를 여러 분야로 나눠보자 아이디어가 넘치길 두번째가 생길까?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">두번째가 생길까</title>
+      <link href="https://snowbell888.github.io/ideas-second" rel="alternate" type="text/html" title="두번째가 생길까" />
+      <published>2021-04-30T08:14:00+00:00</published>
+      <updated>2021-04-30T08:14:00+00:00</updated>
+      <id>https://snowbell888.github.io/ideas-second</id>
+      <content type="html" xml:base="https://snowbell888.github.io/ideas-second">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Ideas를 여러 분야로 나눠보자 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ideas-first&quot;&gt;아이디어가 넘치길&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ideas-second&quot;&gt;두번째가 생길까?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;뭐든 나오겠지,..&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>snowbell888</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ideas" />
+      
+
+      
+        <summary type="html">Ideas를 여러 분야로 나눠보자 아이디어가 넘치길 두번째가 생길까?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">처음으로 남기는 글</title>
+      <link href="https://snowbell888.github.io/memo-first" rel="alternate" type="text/html" title="처음으로 남기는 글" />
+      <published>2021-04-30T08:07:00+00:00</published>
+      <updated>2021-04-30T08:07:00+00:00</updated>
+      <id>https://snowbell888.github.io/memo-first</id>
+      <content type="html" xml:base="https://snowbell888.github.io/memo-first">&lt;p&gt;블로그를 오랫동안 해본적도 없고 해야 할 필요성도 거의 못 느꼈다. 
+그저 다른 사람들의 이야기들을 듣는 것만으로 충분했다. 
+필요한 것을 찾는 것만으로 만족스러웠다.
+책을 들었는데(책을 요약해서 읽어주는 무료 사이트-한국에 사는 분이라면 누구나 누릴 수 있다.) 그 분이 자신의 일상의 기록을 블로그에 남긴다고 했다. 
+ 나의 사적인 이야기를 남기는 행위가 누군가에는 위로가 되기도 했고 자신에게는 또다른 기회가 왔다고 한다.
+그리고 글을 남기는 순간으로 자신의 감정을 정리해서 앞으로 나아갈 수 있는 동력이 된다고 했다.
+또 어떤 교수의 유튜브에서는 20분정도 시간을 내서 자신이 화제를 삼고 싶은 내용에 대해 글을 쓴다면 글쓰는 실력이 많이 늘어나는 걸 느낄 수 있다고 했다.
+거기에다가 자신의 기록물을 통해 새로운 무엇인가를 만들어 낼 수 있는 근간이 될 수 있다는 말도 했다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 정녕 내가 이 블로그를 통해서 얻고자 하는 것은 무엇일까?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;내 생각, 체험 등의 기록들을 남겨서 누군가에게도 나의 글이 도움이 되었으면 좋겠다.&lt;/li&gt;
+  &lt;li&gt;내가 찾은 보물같은 정보들을 남겨서 다시 찾을때 고생하고 싶지 않다. 아마도 이 이유가 가장 크지 않을까! 북마크 동기화는 싫다. 이계정 저계정 쓰면 어디다가 했는지 잊어버린다.&lt;/li&gt;
+  &lt;li&gt;나의 기록물을 남기고 싶다. 역시 나는 흔적을 남기고 싶어하는 인간의 습성을 잘 따른다. (그렇다고 공공물에 낙서는 아니라고 생각한다.)&lt;/li&gt;
+  &lt;li&gt;몇 번 일기를 써 보았지만 작심 한달이다. 아마도 이것도 작심….이 될지도 모르겠지만 시도는 해보고 싶다. “해봐, 안되면 말고…“라는 유명한 가훈도 있지 않은가!!!(내 기억은 박찬욱감독 집의 가훈이라고 생각하고 있지만…아니면..뭐..말고…???!!!)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;위의 이유들은 그럴듯하게 쓴 이유지만 사실 그냥 해보고 싶어서일뿐이다. 어떤 것을 남길지는 나도 모른다. 그저 이 기록물이 누군가를 행복하게 만들거나 재미를 줬으면 좋겠다. 물론 거기에는 나도 포함이다. 내가 제일 행복해야 계속 해나가지 않겠는가?!!! 훗! 나는 전문가는 될 수 없지만(고비…좌절…끝…) 이것 저것 건드려 본 것은 많은 1인이다. 이런 글을 남기는 이유는 나 자신에 대해 알고 시작하고 싶어서다. 이번에는 세미전문가라도 해보고 싶다ㅠㅠ.&lt;/p&gt;
+
+&lt;p&gt;수정이 필요한 내용에 대해서는 겸허히 받아들이겠다. 하지만 납득되지 않는 고견은 정중히 사양한다. 그건 당신의 안에만 담아둬라, 고로 나는 알고 싶지 않다.(쓸데없는 얘기는 바로 지울거다.) 개인적으로 예쁘고 좋은 것만 보고 살기에도 짧은 인생이라는 의견에 동의한다. 그럼 잘부탁한다, 나!!!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>snowbell888</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">블로그를 오랫동안 해본적도 없고 해야 할 필요성도 거의 못 느꼈다. 그저 다른 사람들의 이야기들을 듣는 것만으로 충분했다. 필요한 것을 찾는 것만으로 만족스러웠다. 책을 들었는데(책을 요약해서 읽어주는 무료 사이트-한국에 사는 분이라면 누구나 누릴 수 있다.) 그 분이 자신의 일상의 기록을 블로그에 남긴다고 했다. 나의 사적인 이야기를 남기는 행위가 누군가에는 위로가 되기도 했고 자신에게는 또다른 기회가 왔다고 한다. 그리고 글을 남기는 순간으로 자신의 감정을 정리해서 앞으로 나아갈 수 있는 동력이 된다고 했다. 또 어떤 교수의 유튜브에서는 20분정도 시간을 내서 자신이 화제를 삼고 싶은 내용에 대해 글을 쓴다면 글쓰는 실력이 많이 늘어나는 걸 느낄 수 있다고 했다. 거기에다가 자신의 기록물을 통해 새로운 무엇인가를 만들어 낼 수 있는 근간이 될 수 있다는 말도 했다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
